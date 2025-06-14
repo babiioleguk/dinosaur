@@ -1,0 +1,64 @@
+nav {
+    clear: both;
+    height: 84px;
+    padding-left: 30px;
+    margin-bottom: 60px;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1;
+    font-size: 1.2em;
+    line-height: 76px;
+    text-transform: lowercase;
+	
+}
+
+nav ul li a {
+    display: block;
+    float: left;
+    padding: 0 40px;
+    height: 84px;
+    color: #F7DAAF;
+    text-decoration: none;
+	background: #09d5e8;
+	border-radius:20px;
+}
+
+nav ul li a:hover {
+    color: #F9E6C8;
+}
+
+nav ul li.active a:hover {
+    color: #F7DAAF;
+}
+.a3{
+	height:500px;
+	width:1150px;
+}
+body{
+	background-color:#BD06FF;
+}
+.a3{
+float:right;	
+width:850px;
+height:400px;
+}
+p{
+	font-size:25px;
+}
+.a4{
+	width:350px;
+	height:250px;
+	position:relative;
+	animation:dino 7s infinite;
+}
+@keyframes dino{
+	0%{transform:rotate(0deg)}
+	100%{transform:rotate(360deg)}
+}
